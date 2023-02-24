@@ -1,0 +1,30 @@
+{
+    "platforms": {},
+    "plugins": {
+        "react": "source:rnv",
+        "react-art": "source:rnv",
+        "react-dom": "source:rnv",
+        "react-native": "source:rnv",
+        "react-native-web": "source:rnv",
+        "@react-native-community/cli-platform-ios": "source:rnv",
+        "@react-native-community/cli": "source:rnv"
+    },
+    "extendsTemplate": "@rnv/template-starter/renative.json",
+    "projectName": "tv-app",
+    "workspaceID": "rnv",
+    "defaults": {
+        "title": "Hello Renative",
+        "id": "com.mycompany.tv-app",
+        "supportedPlatforms": [
+            "tizen"
+        ]
+    },
+    "engines": {},
+    "templates": {
+        "@rnv/template-starter": {
+            "version": "0.36.1"
+        }
+    },
+    "currentTemplate": "@rnv/template-starter",
+    "isMonorepo": false
+}
